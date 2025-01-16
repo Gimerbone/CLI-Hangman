@@ -94,7 +94,7 @@ stages = [
 '''
 ]
 
-with open("D:/Bootcamp/Udemy Python/100 Days Python/Day 7 - Hangman/word.txt", "r") as file:
+with open("Your file path to word.txt", "r") as file:
     word_list = [line.strip() for line in file]
     
 picked_word = ran.choice(word_list)
