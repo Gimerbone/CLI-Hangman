@@ -1,4 +1,4 @@
-# CLI-Hangman v1.0.0
+# CLI-Hangman v1.0.1
 
 ```
 =================================================
@@ -24,3 +24,6 @@ You can visit his repository at: https://github.com/Xethron/Hangman/blob/master/
 
 ### v1.0.0
 - FIrst Launch
+
+### v1.0.1
+- Changing path to data.txt. It must be manually added
