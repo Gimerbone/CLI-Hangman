@@ -16,9 +16,7 @@
 Created by Gimerbone, Github: https://github.com/Gimerbone
 Simple Hangman game created as a project to learn python.
 
-Word list used for the game are from Bernhard Breytenbach.
-You can visit his repository at: https://github.com/Xethron/Hangman/blob/master/words.txt
-<br>
+#### Important! Path to data.txt must be manually added. Change the path in main.py to your data.txt location. 
 
 ## Changelogs
 
@@ -27,3 +25,7 @@ You can visit his repository at: https://github.com/Xethron/Hangman/blob/master/
 
 ### v1.0.1
 - Changing path to data.txt. It must be manually added
+
+### v1.1.0
+- Updating word list
+- Improving user experience
