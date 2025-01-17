@@ -1,4 +1,4 @@
-# CLI-Hangman v1.0.1
+# CLI-Hangman v1.2.0
 
 ```
 =================================================
@@ -17,8 +17,9 @@ Created by Gimerbone, Github: https://github.com/Gimerbone
 Simple Hangman game created as a project to learn python.
 
 #### Important! v1.0.0 and v1.0.1 are not available. Changes are saved starting from v1.1.0.
-
-
+<br> 
+<br> 
+<br>
 
 ## Changelogs
 
