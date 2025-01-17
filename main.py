@@ -94,7 +94,7 @@ stages = [
 '''
 ]
 
-with open("Your file path to word.txt", "r") as file:
+with open("D:/Bootcamp/Udemy Python/100 Days Python/Day 7 - Hangman/word.txt", "r") as file:
     word_list = [line.strip() for line in file]
     
 picked_word = ran.choice(word_list)
@@ -112,12 +112,14 @@ print(title)
 time.sleep(2)
         
 while True:
-        print(stages[max(0, chances)])
-        print("\n")
-        print(display_word)
+        print(f"****************************{chances}/7 LIVES LEFT****************************")
+        print(f"Tried Letter: {tried_letter}\n")
+        print(stages[max(0, chances)] + "\n")
+        print(display_word + "\n")
         
         if chances > 0:
-                guess = input("Guess a letter to fill the word. Your letter must be in lowercase.\nPicked Letter: ")
+                guess = input("Guess a letter to fill the word: ").lower()
+                print("\n")
         else:
                 break
         
@@ -140,19 +142,16 @@ while True:
                 chances -= 1
                 
         tried_letter = tried_letter + guess + " "
-        
-        print(f"Tried Letter: {tried_letter}")
-        print(f"Chances left: {chances}")
-
 
 print("\nAnd thats your final guess...")
 time.sleep(2)
-print("\n=================================================\n")
-print("GAME OVER\n")
-print(f"The word is {picked_word}\n")
+
+print("\n==============================GAME OVER===============================\n")
 
 if isPlayerWin:
-        print("Congratulation! You Won!")
+        print("Congratulation! You Win!")
 else:
         print("Oops... Looks like the man is hanging.")
         print("He's dead, but you aren't. You still have chances.")
+
+print(f"\nThe word is {picked_word}")
