@@ -16,12 +16,16 @@
 Created by Gimerbone, Github: https://github.com/Gimerbone
 Simple Hangman game created as a project to learn python.
 
-#### Important! Path to data.txt must be manually added. Change the path in main.py to your data.txt location.
 #### Important! v1.0.0 and v1.0.1 are not available. Changes are saved starting from v1.1.0.
 
 
 
 ## Changelogs
+
+### v1.2.0
+- Changing word_list from word_list.txt to word_list.py
+- Moving title and stages to ascii_art.py
+- No need to update path manually since word_list.py is imported. Just ensure that word_list.py is in the same directory as main.py.
 
 ### v1.1.0
 - Updating word list
